@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044F12261CEC5D07004CAC43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F12251CEC5D07004CAC43 /* AppDelegate.swift */; };
+		044F12281CEC5D07004CAC43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F12271CEC5D07004CAC43 /* ViewController.swift */; };
+		044F122B1CEC5D07004CAC43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044F12291CEC5D07004CAC43 /* Main.storyboard */; };
+		044F122D1CEC5D07004CAC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044F122C1CEC5D07004CAC43 /* Assets.xcassets */; };
+		044F12301CEC5D07004CAC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044F122E1CEC5D07004CAC43 /* LaunchScreen.storyboard */; };
+		044F123B1CEC5D07004CAC43 /* YYRotoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F123A1CEC5D07004CAC43 /* YYRotoSwiftTests.swift */; };
+		044F12461CEC5D07004CAC43 /* YYRotoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F12451CEC5D07004CAC43 /* YYRotoSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044F12371CEC5D07004CAC43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044F121A1CEC5D07004CAC43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044F12211CEC5D07004CAC43;
+			remoteInfo = YYRotoSwift;
+		};
+		044F12421CEC5D07004CAC43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044F121A1CEC5D07004CAC43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044F12211CEC5D07004CAC43;
+			remoteInfo = YYRotoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044F12221CEC5D07004CAC43 /* YYRotoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYRotoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044F12251CEC5D07004CAC43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		044F12271CEC5D07004CAC43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		044F122A1CEC5D07004CAC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044F122C1CEC5D07004CAC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044F122F1CEC5D07004CAC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044F12311CEC5D07004CAC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044F12361CEC5D07004CAC43 /* YYRotoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYRotoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044F123A1CEC5D07004CAC43 /* YYRotoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYRotoSwiftTests.swift; sourceTree = "<group>"; };
+		044F123C1CEC5D07004CAC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044F12411CEC5D07004CAC43 /* YYRotoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYRotoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044F12451CEC5D07004CAC43 /* YYRotoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYRotoSwiftUITests.swift; sourceTree = "<group>"; };
+		044F12471CEC5D07004CAC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044F121F1CEC5D07004CAC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044F12331CEC5D07004CAC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044F123E1CEC5D07004CAC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044F12191CEC5D07004CAC43 = {
+			isa = PBXGroup;
+			children = (
+				044F12241CEC5D07004CAC43 /* YYRotoSwift */,
+				044F12391CEC5D07004CAC43 /* YYRotoSwiftTests */,
+				044F12441CEC5D07004CAC43 /* YYRotoSwiftUITests */,
+				044F12231CEC5D07004CAC43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044F12231CEC5D07004CAC43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044F12221CEC5D07004CAC43 /* YYRotoSwift.app */,
+				044F12361CEC5D07004CAC43 /* YYRotoSwiftTests.xctest */,
+				044F12411CEC5D07004CAC43 /* YYRotoSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044F12241CEC5D07004CAC43 /* YYRotoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				044F12251CEC5D07004CAC43 /* AppDelegate.swift */,
+				044F12271CEC5D07004CAC43 /* ViewController.swift */,
+				044F12291CEC5D07004CAC43 /* Main.storyboard */,
+				044F122C1CEC5D07004CAC43 /* Assets.xcassets */,
+				044F122E1CEC5D07004CAC43 /* LaunchScreen.storyboard */,
+				044F12311CEC5D07004CAC43 /* Info.plist */,
+			);
+			path = YYRotoSwift;
+			sourceTree = "<group>";
+		};
+		044F12391CEC5D07004CAC43 /* YYRotoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				044F123A1CEC5D07004CAC43 /* YYRotoSwiftTests.swift */,
+				044F123C1CEC5D07004CAC43 /* Info.plist */,
+			);
+			path = YYRotoSwiftTests;
+			sourceTree = "<group>";
+		};
+		044F12441CEC5D07004CAC43 /* YYRotoSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044F12451CEC5D07004CAC43 /* YYRotoSwiftUITests.swift */,
+				044F12471CEC5D07004CAC43 /* Info.plist */,
+			);
+			path = YYRotoSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044F12211CEC5D07004CAC43 /* YYRotoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044F124A1CEC5D07004CAC43 /* Build configuration list for PBXNativeTarget "YYRotoSwift" */;
+			buildPhases = (
+				044F121E1CEC5D07004CAC43 /* Sources */,
+				044F121F1CEC5D07004CAC43 /* Frameworks */,
+				044F12201CEC5D07004CAC43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYRotoSwift;
+			productName = YYRotoSwift;
+			productReference = 044F12221CEC5D07004CAC43 /* YYRotoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044F12351CEC5D07004CAC43 /* YYRotoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044F124D1CEC5D07004CAC43 /* Build configuration list for PBXNativeTarget "YYRotoSwiftTests" */;
+			buildPhases = (
+				044F12321CEC5D07004CAC43 /* Sources */,
+				044F12331CEC5D07004CAC43 /* Frameworks */,
+				044F12341CEC5D07004CAC43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044F12381CEC5D07004CAC43 /* PBXTargetDependency */,
+			);
+			name = YYRotoSwiftTests;
+			productName = YYRotoSwiftTests;
+			productReference = 044F12361CEC5D07004CAC43 /* YYRotoSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044F12401CEC5D07004CAC43 /* YYRotoSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044F12501CEC5D07004CAC43 /* Build configuration list for PBXNativeTarget "YYRotoSwiftUITests" */;
+			buildPhases = (
+				044F123D1CEC5D07004CAC43 /* Sources */,
+				044F123E1CEC5D07004CAC43 /* Frameworks */,
+				044F123F1CEC5D07004CAC43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044F12431CEC5D07004CAC43 /* PBXTargetDependency */,
+			);
+			name = YYRotoSwiftUITests;
+			productName = YYRotoSwiftUITests;
+			productReference = 044F12411CEC5D07004CAC43 /* YYRotoSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044F121A1CEC5D07004CAC43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jack YY";
+				TargetAttributes = {
+					044F12211CEC5D07004CAC43 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					044F12351CEC5D07004CAC43 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 044F12211CEC5D07004CAC43;
+					};
+					044F12401CEC5D07004CAC43 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 044F12211CEC5D07004CAC43;
+					};
+				};
+			};
+			buildConfigurationList = 044F121D1CEC5D07004CAC43 /* Build configuration list for PBXProject "YYRotoSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044F12191CEC5D07004CAC43;
+			productRefGroup = 044F12231CEC5D07004CAC43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044F12211CEC5D07004CAC43 /* YYRotoSwift */,
+				044F12351CEC5D07004CAC43 /* YYRotoSwiftTests */,
+				044F12401CEC5D07004CAC43 /* YYRotoSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044F12201CEC5D07004CAC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044F12301CEC5D07004CAC43 /* LaunchScreen.storyboard in Resources */,
+				044F122D1CEC5D07004CAC43 /* Assets.xcassets in Resources */,
+				044F122B1CEC5D07004CAC43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044F12341CEC5D07004CAC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044F123F1CEC5D07004CAC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044F121E1CEC5D07004CAC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044F12281CEC5D07004CAC43 /* ViewController.swift in Sources */,
+				044F12261CEC5D07004CAC43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044F12321CEC5D07004CAC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044F123B1CEC5D07004CAC43 /* YYRotoSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044F123D1CEC5D07004CAC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044F12461CEC5D07004CAC43 /* YYRotoSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044F12381CEC5D07004CAC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044F12211CEC5D07004CAC43 /* YYRotoSwift */;
+			targetProxy = 044F12371CEC5D07004CAC43 /* PBXContainerItemProxy */;
+		};
+		044F12431CEC5D07004CAC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044F12211CEC5D07004CAC43 /* YYRotoSwift */;
+			targetProxy = 044F12421CEC5D07004CAC43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044F12291CEC5D07004CAC43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044F122A1CEC5D07004CAC43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044F122E1CEC5D07004CAC43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044F122F1CEC5D07004CAC43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044F12481CEC5D07004CAC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		044F12491CEC5D07004CAC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044F124B1CEC5D07004CAC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYRotoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYRotoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		044F124C1CEC5D07004CAC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYRotoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYRotoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		044F124E1CEC5D07004CAC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYRotoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYRotoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYRotoSwift.app/YYRotoSwift";
+			};
+			name = Debug;
+		};
+		044F124F1CEC5D07004CAC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYRotoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYRotoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYRotoSwift.app/YYRotoSwift";
+			};
+			name = Release;
+		};
+		044F12511CEC5D07004CAC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYRotoSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYRotoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYRotoSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		044F12521CEC5D07004CAC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYRotoSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYRotoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYRotoSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044F121D1CEC5D07004CAC43 /* Build configuration list for PBXProject "YYRotoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044F12481CEC5D07004CAC43 /* Debug */,
+				044F12491CEC5D07004CAC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044F124A1CEC5D07004CAC43 /* Build configuration list for PBXNativeTarget "YYRotoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044F124B1CEC5D07004CAC43 /* Debug */,
+				044F124C1CEC5D07004CAC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044F124D1CEC5D07004CAC43 /* Build configuration list for PBXNativeTarget "YYRotoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044F124E1CEC5D07004CAC43 /* Debug */,
+				044F124F1CEC5D07004CAC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044F12501CEC5D07004CAC43 /* Build configuration list for PBXNativeTarget "YYRotoSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044F12511CEC5D07004CAC43 /* Debug */,
+				044F12521CEC5D07004CAC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044F121A1CEC5D07004CAC43 /* Project object */;
+}
